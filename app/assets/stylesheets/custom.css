@@ -2,6 +2,25 @@
 @import "bootstrap";
 
 
+/*
+ *   NAVIGATION
+ */
+
+.jumbotron p .btn-primary
+{
+  position: relative;
+  left : 45%;
+  top: 210px;
+}
+
+.jumbotron h1
+{
+  color : white;
+  text-align: center;
+  position: relative;
+  top: 70%;
+  font-size:300%;
+}
 
 #navbarLogo
 {
@@ -16,15 +35,15 @@
   position: relative;
   top : -20px;
   /*background-image: url('<%= asset_path 'jumb.jpg' %>');*/
-  background-image: url("http://www.ihomestay.com.au/wp-content/uploads/2016/02/Study-modes_EVE-1220x732.jpg");
+  background-image: url("https://careerswithstem.com/postgradfutures/wp-content/uploads/sites/5/2015/02/Highlight-banner_laptopcoffeegrass2.jpg");
 
 }
 
-
 /*
- * FOOTER
+ *  FOOTER
  */
-#myFooter {
+
+ #myFooter {
     background-color: #3c3d41;
     color: white;
     padding-top: 30px;
@@ -128,10 +147,7 @@
     }
 }
 
-
-/* CSS used for positioning the footers at the bottom of the page. */
-/* You can remove this. */
-
+/*
 html{
     height: 100%;
 }
@@ -143,8 +159,8 @@ body{
     -webkit-flex-direction: column;
     height: 100%;
 }
-
-.content{
+*/
+.content-footer{
    flex: 1 0 auto;
    -webkit-flex: 1 0 auto;
    min-height: 200px;
